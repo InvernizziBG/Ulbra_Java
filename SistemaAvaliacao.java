@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 public class SistemaAvaliacao {
     public static void main(String[] args) {
         double nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a nota da primeira prova: "));
