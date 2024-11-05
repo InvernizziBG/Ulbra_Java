@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 public class CalculadoraITBI {
     public static void main(String[] args) {
         double valorTransacao = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor da transação do imóvel: "));
